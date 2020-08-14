@@ -111,6 +111,7 @@ namespace GoodBye_ConsoleApp
                         break;
                     case "10":
                         Console.Clear();
+                        Console.WriteLine("Amanda, thank you so much for all your hard work in the class. Your positivity and genuine concern and desire to see us do well means the world. We'll miss your smiling face");
                         Console.ReadLine();
                         break;
                     case "11":
@@ -121,6 +122,7 @@ namespace GoodBye_ConsoleApp
                         break;
                     case "12":
                         Console.Clear();
+                        Console.WriteLine("Thanks for your help Amanda! Good Luck with your next class!");
                         Console.ReadLine();
                         break;
                     case "13":
