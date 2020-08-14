@@ -23,27 +23,29 @@ namespace GoodBye_ConsoleApp
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("-----------------------------------------------------------------------------------------------------");
                 Console.WriteLine(
-                    "You made it to the last day! How? IDK but you did! \n" +
+                    "You made it to the last day! How in the world did you put up with us? IDK but you did! \n" +
                     "Unfortunately, your last day isn't our last day but one thing's for sure... \n" +
                     "WE WILL MISS YOU! \n" +
                     "Below you will find a goodbye message from each of us. \n" +
-                    "Type a number that corresponds with a student to see what we have to say!");
+                    "Type a number that corresponds with a student to see what we have to say! \n" +
+                    "#cohortjuneSD55 \n" +
+                    "#cohortSEVEN");
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine(
                     "1. Adam Schulz \n" +
-                    "2. AJ Sheehand \n" +
+                    "2. AJ Sheehan \n" +
                     "3. Austin Hooker \n" +
                     "4. Jack McCoy \n" +
                     "5. Jeff Beeson \n" +
                     "6. Jeff Richardson \n" +
-                    "7. Kaleb Emery \n" +
+                    "7. Xavier Collins \n" +
                     "8. Kristopher Prater \n" +
                     "9. Lisa Jeffers \n" +
                     "10. Nick Davies \n" +
                     "11. Severa Cox \n" +
                     "12. Tim Culp \n" +
                     "13. Tyler Klink \n" +
-                    "14. Xavier Collins \n" +
+                    "14. Kaleb Emery\n" +
                     "15. Zachary Sperka \n" +
                     "16. Exit");
                 Console.ForegroundColor = ConsoleColor.Cyan;
@@ -59,6 +61,9 @@ namespace GoodBye_ConsoleApp
                         Console.ReadLine();
                         break;
                     case "2":
+                        Console.Clear();
+                        Console.WriteLine("Thanks Amanda for being such a great teacher, you’ve been awesome! Forever Amanda and The Basement Crew!");
+                        Console.ReadLine();
                         break;
                     case "3":
                         Console.Clear();
@@ -76,15 +81,22 @@ namespace GoodBye_ConsoleApp
                         Console.ReadLine();
                         break;
                     case "6":
+                        Console.Clear();
+                        Console.WriteLine("Amanda, have fun in your new class!  I've enjoyed your enthusiasm, patience, knowledge and ability to help us learn.  There's a new set of Eleven Fifty Blue-haired Basement Crew coders almost ready to conquer the world thanks to your guidance. Blue-haired Basement Crew 4Ever!");
+                        Console.ReadLine();
                         break;
                     case "7":
+                        Console.Clear();
+                        Console.WriteLine("Amanda I really enjoyed your class and your teaching style, it is a breath of fresh air and the advice and confidence you've given in our 1 on 1's was extremely helpful and I will take what I learned with me into my future career.\n" +
+                        "Sincerely, 7");
+                        Console.ReadLine();
                         break;
                     case "8":
                         Console.Clear();
                         Console.WriteLine("Amanda – This class has been great with you as our teacher and leader. Your sense of humor and enthusiasm have made learning a very enjoyable experience. Enjoy your time “off” before your next class starts.");
                         string firstWord = "You";
                         string secondWord = "Will";
-                        string thirdWord = "Be"; 
+                        string thirdWord = "Be";
                         string fourthWord = "Missed!";
                         Console.WriteLine(firstWord);
                         Console.WriteLine(secondWord);
@@ -93,8 +105,13 @@ namespace GoodBye_ConsoleApp
                         Console.ReadLine();
                         break;
                     case "9":
+                        Console.Clear();
+                        Console.WriteLine("Amanda, Thanks for all the knowledge and encouragement you have provided us.  We will miss seeing you on a daily basis.  Wish you the best going forward.");
+                        Console.ReadLine();
                         break;
                     case "10":
+                        Console.Clear();
+                        Console.ReadLine();
                         break;
                     case "11":
                         Console.Clear();
@@ -103,6 +120,8 @@ namespace GoodBye_ConsoleApp
                         Console.ReadLine();
                         break;
                     case "12":
+                        Console.Clear();
+                        Console.ReadLine();
                         break;
                     case "13":
                         Console.Clear();
@@ -110,6 +129,9 @@ namespace GoodBye_ConsoleApp
                         Console.ReadLine();
                         break;
                     case "14":
+                        Console.Clear();
+                        Console.WriteLine("Unfortunately, Kaleb was absent BUT he said he is going to miss you! We will add his message when he returns!");
+                        Console.ReadLine();
                         break;
                     case "15":
                         Console.Clear();
@@ -118,7 +140,7 @@ namespace GoodBye_ConsoleApp
                         break;
                     case "16":
                         Console.Clear();
-                        Console.WriteLine("We are going to miss you! Thanks for being such an awesome instructor! You really made an impact on all of us! Good-Bye & We Hope To See You Soon!");
+                        Console.WriteLine("We are going to miss you! Thanks for being such an awesome instructor! You really made an impact on all of us! Good-Bye & We Hope To See You Soon (on the zip line of course)!");
                         Console.ForegroundColor = ConsoleColor.Red;
                         string tfour = "///////////";
                         string five = " /////////";
