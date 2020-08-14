@@ -47,6 +47,9 @@ namespace GoodBye_ConsoleApp
                     case "2":
                         break;
                     case "3":
+                        Console.Clear();
+                        Console.WriteLine("Thank you for being so patient with us. You have been an excellent teacher, motivator, and mentor. Sucks to see you go, but appreciative of what we got to learn from you. Take care, and good luck with everything you decide to do moving forward!");
+                        Console.ReadLine();
                         break;
                     case "4":
                         break;
